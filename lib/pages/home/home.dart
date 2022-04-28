@@ -7,11 +7,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("首页"),
-      ),
-      body: const HomeContent(),
+    return const Scaffold(
+      body:  HomeContent(),
     );
   }
 }
